@@ -14,7 +14,7 @@ import os
 import shutil
 import random
 import numpy
-import cv
+import cv2
 
 from utils import cvarray
 from utils.prog_bar import ProgBar

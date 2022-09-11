@@ -18,8 +18,8 @@
 import os.path
 
 import numpy
-import scipy.weave as weave
-import cv
+import weave
+import cv2
 
 from utils.cvarray import cv2array
 from utils.start_cpp import start_cpp

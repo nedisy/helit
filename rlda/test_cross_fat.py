@@ -22,7 +22,7 @@ import math
 import random
 
 import numpy
-import cv
+import cv2
 
 import rlda
 print 'Algorithm =', rlda.getAlgorithm()

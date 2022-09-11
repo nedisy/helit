@@ -11,7 +11,7 @@
 import sys
 import os.path
 
-import cv
+import cv2
 import numpy
 
 from utils.cvarray import *

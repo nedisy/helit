@@ -95,16 +95,16 @@ PyObject * Summary_string(char code, Summary this);
 
 // The SummaryType objects provided by the system...
 // Does nothing - mostly useful if using something like the BiGaussianType...
-const SummaryType NothingSummary; // Code = N
+extern const SummaryType NothingSummary; // Code = N
 
 // Default for dealing with discrete variables...
-const SummaryType CategoricalSummary; // Code = C
+extern const SummaryType CategoricalSummary; // Code = C
 
 // Default for dealing with continuous variables...
-const SummaryType GaussianSummary; // Code = G
+extern const SummaryType GaussianSummary; // Code = G
 
 // Does a bivariate Gaussian, on the provided feature index and the following one (A type code vector with this as the last entry will cause a crash.)...
-const SummaryType BiGaussianSummary; // Code = B
+extern const SummaryType BiGaussianSummary; // Code = B
 
 
 

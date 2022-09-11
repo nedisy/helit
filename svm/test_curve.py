@@ -14,7 +14,7 @@
 import math
 
 import numpy
-import cv
+import cv2
 
 import svm
 

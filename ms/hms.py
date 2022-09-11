@@ -12,7 +12,7 @@
 
 import os.path
 
-import cv
+import cv2
 import numpy
 from scipy.weave import inline
 

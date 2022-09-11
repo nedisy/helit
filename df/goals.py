@@ -14,7 +14,7 @@ import numpy.random
 
 from exemplars import MatrixFS
 
-import scipy.weave as weave
+import weave
 from utils.start_cpp import start_cpp
 
 

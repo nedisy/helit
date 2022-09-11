@@ -17,7 +17,7 @@ import random
 import os
 
 import numpy
-import cv
+import cv2
 
 import lda
 

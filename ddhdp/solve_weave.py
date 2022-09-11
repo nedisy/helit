@@ -25,7 +25,7 @@ from utils.start_cpp import start_cpp
 
 from ds_link_cpp import ds_link_code
 
-from scipy import weave
+import weave
 
 
 

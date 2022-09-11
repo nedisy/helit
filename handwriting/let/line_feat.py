@@ -9,7 +9,7 @@
 import numpy
 
 try:
-  from scipy import weave
+  import weave
 except ImportError:
   import weave
 

@@ -13,7 +13,7 @@
 import os
 import shutil
 
-import cv
+import cv2
 from utils.cvarray import *
 
 import numpy

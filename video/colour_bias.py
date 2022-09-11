@@ -21,7 +21,7 @@ import numpy
 import numpy.linalg
 
 try:
-  import scipy.weave as weave
+  import weave
 except:
   weave = None
 

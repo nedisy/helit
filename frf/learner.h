@@ -88,13 +88,13 @@ void Learner_fetch(Learner this, void * out);
 
 // The various learner types in the system...
 // No-op learner - no idea why you would use it, but its here for completeness...
-const LearnerType IdiotLearner; // Code = I.
+extern const LearnerType IdiotLearner; // Code = I.
 
 // The default learner for real data - finds an optimal split point...
-const LearnerType SplitLearner; // Code = S.
+extern const LearnerType SplitLearner; // Code = S.
 
 // The default learner for discrete data - one discrete value passes, all other fail...
-const LearnerType OneCatLearner; // Code = O.
+extern const LearnerType OneCatLearner; // Code = O.
 
 
 

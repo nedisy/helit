@@ -12,7 +12,7 @@ import random
 import numpy
 import numpy.random
 
-import cv
+import cv2
 from utils.cvarray import *
 from utils.prog_bar import ProgBar
 

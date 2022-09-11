@@ -17,7 +17,7 @@ import numpy
 import numpy.linalg as la
 
 try:
-  from scipy import weave
+  import weave
 except ImportError:
   import weave
 

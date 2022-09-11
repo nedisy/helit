@@ -15,7 +15,7 @@ import random
 import math
 
 from scipy.special import gammaln, psi, polygamma
-from scipy import weave
+import weave
 
 from start_cpp import start_cpp
 

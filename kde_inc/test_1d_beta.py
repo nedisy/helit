@@ -19,7 +19,7 @@ import random
 import numpy
 import scipy.special
 
-import cv
+import cv2
 
 from kde_inc import KDE_INC
 

@@ -89,7 +89,7 @@ struct Edge
  int segment; // Segment assignment at the start of the edge (Closest to neg) - it can be changed by splits along the edge.
 };
 
-inline Edge * HalfToEdge(HalfEdge * half)
+static inline Edge * HalfToEdge(HalfEdge * half)
 {
  if (half->reverse < half) half = half->reverse;
  return (Edge*)(void*)((char*)(void*)half - offsetof(Edge, pos));

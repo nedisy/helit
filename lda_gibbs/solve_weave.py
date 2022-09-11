@@ -11,7 +11,7 @@
 
 
 import numpy
-import scipy.weave as weave
+import weave
 
 import solve_shared as shared
 

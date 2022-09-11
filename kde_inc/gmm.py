@@ -11,7 +11,7 @@
 import math
 import numpy
 
-from scipy import weave
+import weave
 from utils.start_cpp import start_cpp
 
 

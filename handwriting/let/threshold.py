@@ -13,7 +13,7 @@ from ms.ms import MeanShift
 from misc.tps import TPS
 
 try:
-  from scipy import weave
+  import weave
 except ImportError:
   import weave
 

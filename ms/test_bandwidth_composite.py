@@ -13,7 +13,7 @@
 import numpy
 import numpy.random
 
-import cv
+import cv2
 from utils.cvarray import *
 
 from ms import MeanShift, MeanShiftCompositeScale

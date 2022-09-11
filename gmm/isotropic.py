@@ -14,7 +14,7 @@ import math
 import random
 
 import numpy
-import scipy.weave as weave
+import weave
 
 from kmeans import KMeans
 from mixture import Mixture

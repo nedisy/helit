@@ -12,7 +12,7 @@ import sys
 import os.path
 import random
 
-import cv
+import cv2
 from utils.cvarray import *
 import numpy
 

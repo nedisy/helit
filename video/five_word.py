@@ -16,7 +16,7 @@
 
 
 import numpy
-import scipy.weave as weave
+import weave
 
 from utils.start_cpp import start_cpp
 from video_node import *

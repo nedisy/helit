@@ -11,7 +11,7 @@
 import numpy
 from ms import MeanShift
 
-import cv
+import cv2
 from utils.cvarray import *
 
 

@@ -15,7 +15,7 @@ import os
 import shutil
 import math
 import numpy
-import cv
+import cv2
 
 from utils.cvarray import *
 from gaussian_prior import *

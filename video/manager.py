@@ -18,7 +18,7 @@ import os.path
 import time
 from collections import defaultdict
 
-import cv
+import cv2
 
 from utils.make import make_mod
 from video_node import VideoNode

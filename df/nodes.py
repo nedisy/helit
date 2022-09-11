@@ -11,7 +11,7 @@
 import numpy
 import numpy.random
 
-try: from scipy import weave
+try: import weave
 except: weave = None
 
 from utils.start_cpp import start_cpp

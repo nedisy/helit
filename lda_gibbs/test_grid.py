@@ -18,7 +18,7 @@ import time
 import numpy
 import numpy.random
 
-import cv
+import cv2
 from utils import cvarray
 
 import lda

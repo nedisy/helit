@@ -25,7 +25,7 @@ import shutil
 
 import math
 import numpy
-import cv
+import cv2
 
 from utils.prog_bar import ProgBar
 from utils.cvarray import *

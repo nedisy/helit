@@ -24,7 +24,7 @@ import shutil
 
 import numpy
 import numpy.random
-import cv
+import cv2
 
 import ddhdp
 print 'Algorithm =', ddhdp.getAlgorithm()

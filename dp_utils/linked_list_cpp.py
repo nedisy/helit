@@ -10,7 +10,7 @@
 
 
 
-from scipy import weave
+import weave
 import unittest
 from utils.start_cpp import start_cpp
 

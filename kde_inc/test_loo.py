@@ -13,7 +13,7 @@
 import math
 import numpy
 import numpy.random
-import cv
+import cv2
 
 from kde_inc import *
 

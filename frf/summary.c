@@ -868,12 +868,12 @@ size_t SummarySet_init_size(DataMatrix * dm, IndexView * view, const char * code
   return ret;
 }
 
-inline char * CodePtr(SummarySet * this)
+static inline char * CodePtr(SummarySet * this)
 {
  return (char*)this + sizeof(SummarySet) + this->features * sizeof(int); 
 }
 
-inline Summary SummaryPtr(SummarySet * this, int i)
+static inline Summary SummaryPtr(SummarySet * this, int i)
 {
  return (char*)this + this->offset[i]; 
 }

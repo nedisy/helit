@@ -18,7 +18,7 @@
 import os.path
 
 import numpy
-import cv
+import cv2
 from utils.cvarray import cv2array
 
 from video_node import *
